@@ -19,11 +19,17 @@
 }
 .recipe li::after {
   content: ",";
-}s
-.recipe li:last-child::after {
+}
+s .recipe li:last-child::after {
   content: ".";
 }
 .method {
   text-align: left;
   line-height: 1.5em;
+}
+
+/* dark mode */
+.recipe.dark {
+  background: #555;
+  color: #e4e4e4;
 }
